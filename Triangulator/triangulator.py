@@ -3,7 +3,7 @@ import triangle
 print("------------------------------Triangulator------------------------------")
 
 n = int(input("Number of Rows: "))
-list = [1, 200, 3, 400, 5, 600, 7, 800, 9, 100]
+list = [1, 20, 3, 40, 5, 60, 7, 8, 9, 100]
 
 print()
 print("Select Triangle: ")

@@ -76,7 +76,7 @@ def print_right_triangle(n, list, side):
         # Right-angled triangle with the right angle at the top right
         for i in range(n):
             print(' ' * (n - 1 - i) * (universal_space + 1), end='')
-            for j in range(i + 1):
+            for j in range(n-i-1, n):
                 print(str(list[j]) + ' ' * (universal_space + 1 - len(str(list[j]))), end='')
             print()
 
@@ -85,6 +85,6 @@ def print_right_triangle(n, list, side):
         # Right-angled triangle with the right angle at the bottom right
         for i in range(n):
             print(' ' * i * (universal_space + 1), end='')
-            for j in range(n - i):
-                print(str(list[j]) + ' ' * (universal_space + 1 - len(str(list[j]))), end='')
+            for j in range(n-i):
+                print(str(list[j+i]) + ' ' * (universal_space + 1 - len(str(list[j+i]))), end='')
             print()
