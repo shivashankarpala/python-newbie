@@ -25,6 +25,13 @@ if choice == 1:
 
     triangle.print_equilateral_triangle(n, list, type)
 
+    print()
+    if input("Want the items to in reverse order? (y/n): ").lower() == 'y':
+        list.reverse()
+        print()
+        triangle.print_equilateral_triangle(n, list, type)
+        print()
+
 elif choice == 2:
 
     print("Select Right-Angled Triangle Orientation: ")
@@ -37,5 +44,12 @@ elif choice == 2:
     print()
 
     triangle.print_right_triangle(n, list, side)
+
+    print()
+    if input("Want the items to in reverse order? (y/n): ").lower() == 'y':
+        list.reverse()
+        print()
+        triangle.print_right_triangle(n, list, side)
+        print()
 
 print("------------------------------------------------------------------------")
