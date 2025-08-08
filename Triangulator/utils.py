@@ -26,5 +26,4 @@ def center_pad_list(list):
             item = ' ' * (relative_length // 2 + 1) + str(list[i]) + ' ' * (relative_length // 2)
 
         center_padded_list.append(item)
-        
     return center_padded_list
