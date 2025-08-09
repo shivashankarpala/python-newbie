@@ -27,3 +27,9 @@ def center_pad_list(list):
 
         center_padded_list.append(item)
     return center_padded_list
+
+def print_triangle(list, row_reversed = False):
+    if row_reversed:
+        list.reverse()
+    for i in list:
+        print(i)

@@ -1,9 +1,11 @@
+from typing import List
 import triangle
 
 print("------------------------------Triangulator------------------------------")
 
-n = int(input("Number of Rows: "))
 list = [1, 20, 3, 40, 5, 60, 7, 8, 9, 100]
+n = len(list)
+print("List: ", list)
 
 print()
 print("Select Triangle: ")
@@ -27,10 +29,15 @@ if choice == 1:
 
     print()
     if input("Want the items to in reverse order? (y/n): ").lower() == 'y':
-        list.reverse()
+        reverse_prompt = input("Reverse row or column? (r/c): ").lower()
         print()
-        triangle.print_equilateral_triangle(n, list, type)
-        print()
+
+        if reverse_prompt == 'r':
+            triangle.print_equilateral_triangle(n, list, type, row_reversed=True)
+        elif reverse_prompt == 'c':
+            triangle.print_equilateral_triangle(n, list, type, column_reversed=True)
+        else:
+            print("!! Invalid choice !!")
 
 elif choice == 2:
 
@@ -47,9 +54,14 @@ elif choice == 2:
 
     print()
     if input("Want the items to in reverse order? (y/n): ").lower() == 'y':
-        list.reverse()
+        reverse_prompt = input("Reverse row or column? (r/c): ").lower()
         print()
-        triangle.print_right_triangle(n, list, side)
-        print()
+
+        if reverse_prompt == 'r':
+            triangle.print_equilateral_triangle(n, list, type, row_reversed=True)
+        elif reverse_prompt == 'c':
+            triangle.print_equilateral_triangle(n, list, type, column_reversed=True)
+        else:
+            print("!! Invalid choice !!")
 
 print("------------------------------------------------------------------------")
