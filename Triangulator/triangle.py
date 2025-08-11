@@ -11,9 +11,8 @@ def print_equilateral_triangle(n, list, style, row_reversed = False, column_reve
 
     output_lines = []
     l, largest = utils.lengthiest(list)
-    universal_space = len(str(list[l])) 
+    universal_space = len(str(list[l]))     # Universal space is the length of the longest element in the list
     centered_list = utils.center_pad_list(list)
-    # Universal space is the length of the longest element in the list
 
     if style == 1:
         for i in range(n):
