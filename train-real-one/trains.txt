@@ -1,0 +1,10 @@
+TR1001_Falcon_North_South
+TR1002_Summit_East_West
+TR1003_Seabreeze_West_Coast
+TR1004_Metrostar_Uptown_Downtown
+TR1005_Aurora_South_East
+TR1006_BlueRiver_North_East
+TR1007_Pulse_Central_Loop
+TR1008_Pioneer_West_Valley
+TR1009_Evergreen_North_Forest
+TR1010_Sandstorm_East_Desert
