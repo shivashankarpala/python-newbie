@@ -1,0 +1,10 @@
+TR1001_Falcon_North_South_8_2*AC_4*General_1*Women_1*Luggage
+TR1002_Summit_East_West_9_3*AC_4*General_1*Women_1*Luggage
+TR1003_Seabreeze_West_Coast_7_2*AC_3*General_1*Women_1*Luggage
+TR1004_Metrostar_Uptown_Downtown_10_2*AC_5*General_1*Women_2*Luggage
+TR1005_Aurora_South_East_8_1*AC_5*General_1*Women_1*Luggage
+TR1006_BlueRiver_North_East_11_3*AC_5*General_1*Women_2*Luggage
+TR1007_Pulse_Central_Loop_9_2*AC_4*General_2*Women_1*Luggage
+TR1008_Pioneer_West_Valley_10_2*AC_6*General_1*Women_1*Luggage
+TR1009_Evergreen_North_Forest_7_1*AC_4*General_1*Women_1*Luggage
+TR1010_Sandstorm_East_Desert_8_2*AC_4*General_1*Women_1*Luggage

@@ -1,5 +1,8 @@
 import train as t
 
-t.TRAIN.update_train_dictionary()
-t.TRAIN.print_train_info()
-t.TRAIN.print_train_info("TR100")
+T = t.TRAIN()
+
+T.read_train_info()
+T.refresh_train_dictionary()
+T.print_train_info()
+T.print_train_info("TR100")
